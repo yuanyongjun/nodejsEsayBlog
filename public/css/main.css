@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 200px;
+}
+
+.backimg {
+    position: relative;
+}
+
+.backimg img {
+    height: 200px;
+    width: 100%;
+}
+
+.logo {
+    position: relative;
+    top: -117px;
+    left: 748px;
+    width: 270px;
+    background-color: #fdd220;
+}
+
+.logo img {
+    position: relative;
+    left: -28px;
+}
+
+nav {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+nav .menu {
+
+}
+
+nav .menu a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    color: #8a8686;
+    margin-left: -5px;
+}
+
+nav .menu a:hover {
+    border-bottom: 2px solid #fdd220;
+    background-color: antiquewhite;
+    transition: .4s ease-in-out;
+}
+
+nav .menu .focus {
+    border-bottom: 2px solid #fdd220;
+    background-color: antiquewhite;
+}
+
+.main_container {
+    background-color: #eee;
+    width: 100%;
+    /*height: 1100px;*/
+}
+
+.main_container .content {
+    width: 1115px;
+    margin: 0 auto;
+}
+
+.main_container .mainLeft {
+    width: 75%;
+    float: left;
+}
+
+.main_container .mainRight {
+    width: 25%;
+    float: right;
+}
+
+.listBox {
+    background-color: white;
+    width: 100%;
+    margin: 30px auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.listBox h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.listBox p.colDefault {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.listBox .colInfo {
+    color: lightskyblue;
+}
+
+.listBox p.article-intro {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+}
+
+.listBox .function {
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.listBox .function a {
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    display: inline-block;
+    background-color: orange;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, .6);;
+    color: white;
+}
+
+.listBox .function a:hover {
+    color: #aaff82;
+}
+
+.mainLeft .pager {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0 15px;
+    /*line-height:-px;*/
+    overflow: hidden;
+}
+
+.mainLeft .pager ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.mainLeft .pager ul li {
+    display: inline-block;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    width: 33.3%;
+    text-align: center;
+}
+
+.mainLeft .pager ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.pager p.pager-none {
+    text-align: center;
+    font-size: 18px;
+}
+
+.rightBox {
+    width: 400px;
+    background-color: white;
+    margin: 30px 60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 25px;
+    padding-top: 15px;
+}
+
+.rightBox div.title {
+    height: 35px;
+    border-bottom: 2px solid #ccc;
+}
+
+.rightBox div.title span {
+    display: inline-block;
+    padding-right: 15px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 2px solid orange;
+}
+
+.rightBox p {
+    display: block;
+    height: 30px;
+    line-height: 35px;
+}
+
+.rightBox span.colDanger {
+    color: red;
+}
+
+.rightBox div.line {
+    height: 50px;
+    line-height: 50px;
+}
+
+.rightBox div.line span.colDark {
+    display: inline-block;
+    font-size: 16px;
+    width: 60px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.rightBox input {
+    width: 260px;
+    height: 25px;
+}
+
+.rightBox button {
+    height: 35px;
+    width: 264px;
+    background-color: orange;
+    box-shadow: none;
+    border: none;
+}
+
+.rightBox a.colMint {
+    color: #89ff0c;
+    text-decoration: none;
+}
+
+.rightBox .textRight {
+    padding-right: 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+.rightBox .colwarning {
+    color: orange;
+}
+
+.rightBox .textCenter {
+    display: inline-block;
+    text-align: center;
+}
+
+.listBox h3.textLeft {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.listBox h3.textLeft span.em {
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.message p {
+    margin-bottom: 15px;
+}
+
+.message textarea#messageContent {
+    display: inline-block;
+    width: 650px;
+    height: 85px;
+    float: left;
+    border: 1px solid #2289be;
+    resize: none;
+}
+
+.message button#messageBtn {
+    background-color: #2289be;
+    border-bottom: 1px solid #2289be;
+    border-top: 1px solid #2289be;
+    border-right: 1px solid #2289be;
+    border: 0px;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    width: 88px;
+    height: 87px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.message p.bgDanger{
+    height: 35px;
+    line-height:35px;
+    background-color: #ff6452;
+    margin-top: 18px;
+    text-align: center;
+    color:white;
+}
+
+.message .messageList{
+    width: 100%;
+}
+
+.message div{
+    width: 100%;
+}
+
+.message .messageBox{
+    margin-top: 20px;
+}
+
+.message .messageBox span.messPerson{
+    float:left;
+}
+
+.message .messageBox span.messTime{
+    float: right;
+}
+
+.message .messageBox p.messInfo{
+    margin-top: 8px;
+    word-break: break-all;
+}
+
+.message div.noMessage{
+    margin-top: 20px;
+}
+

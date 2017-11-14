@@ -1,0 +1,1 @@
+mongod --dbpath=F:\nodejs\TencentStudy\Blog\db --port=27018
